@@ -42,5 +42,12 @@ composer install
 php artisan migrate --seed
 ```
 
+-Démarrer le serveur
+
+```bash
+php artisan serve
+```
+
+
 
   
