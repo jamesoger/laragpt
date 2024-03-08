@@ -15,19 +15,32 @@ cd laraGPT
 
 
 ### 2
-
+-Installer XAMP
+-Glisser le dossier VS code dans le htdocs de XAMP
 - Se rendre sur localhost/phpmyadmin
 - Créer une database, lui donner le meme nom que celui dans le dossier database
-- Importer le fichier pub_G4.sql dans phmyadmin
-- Créer un fichier .env à la racine du projet et entrer les informations suivantes:
+- Renommer le fichier .env à la racine du projet et modifier les informations suivantes:
 
 ```bash
 HOST=localhost
 USERNAME=root
 PASSWORD=
-DBNAME=pub_g4
+DBNAME=lara_database
 ```
 
 ### 3
 
-- Se rendre sur localhost et selectionner le bon dossier , le projet est prêt!
+- Installer les dépendances
+
+```bash
+composer install
+```
+
+-Effectuer les migrations
+
+```bash
+php artisan migrate --seed
+```
+
+
+  
