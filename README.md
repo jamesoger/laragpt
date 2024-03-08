@@ -1,6 +1,6 @@
 # LaraGPT -chatbot 
 
-<img src="/public/img/logo.png?raw=true" alt="">
+<img src="/public/images/eveuhhh.jpg?raw=true" alt="">
 
 ## Installation:
 
